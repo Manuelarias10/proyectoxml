@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="creacionarchivo.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="317.0" prefWidth="430.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="creacionarchivo.FXMLDocumentController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label fx:id="Ltitulo" layoutX="47.0" layoutY="20.0" text="Agregar Empleado">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label fx:id="lNombre" layoutX="63.0" layoutY="103.0" text="Nombre" />
+      <Label fx:id="lDireccion" layoutX="60.0" layoutY="138.0" text="Direccion" />
+      <Label fx:id="lEdad" layoutX="61.0" layoutY="172.0" text="Edad" />
+      <Label fx:id="lCodigoEmpleado" layoutX="48.0" layoutY="203.0" text="Codigo Empleado" />
+      <Label layoutX="47.0" layoutY="241.0" text="Departamento" />
+      <TextField layoutX="195.0" layoutY="99.0" />
+      <TextField layoutX="195.0" layoutY="134.0" />
+      <TextField layoutX="195.0" layoutY="168.0" />
+      <TextField layoutX="195.0" layoutY="199.0" />
+      <TextField layoutX="195.0" layoutY="237.0" />
+      <Button layoutX="63.0" layoutY="278.0" mnemonicParsing="false" text="Agregar a la lista" />
+      <Button layoutX="234.0" layoutY="278.0" mnemonicParsing="false" text="Guardar Archivo XML" />
     </children>
 </AnchorPane>
