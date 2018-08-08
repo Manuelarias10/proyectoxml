@@ -57,6 +57,11 @@ public class FXMLDocumentController implements Initializable {
       String codigoEmpleado= LCodigoEmpleado.getText();
      String departamento = LDepartamento.getText();
        }
+           @FXML   
+       private void crearArchivoXML(ActionEvent event){
+           Empleado objE=  new Empleado();
+        boolean guardar =objE.crearFileXML(EgregarEmpleado);    
+       }
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

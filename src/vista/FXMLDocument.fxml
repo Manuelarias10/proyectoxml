@@ -19,13 +19,13 @@
       <Label fx:id="lDireccion" layoutX="60.0" layoutY="138.0" text="Direccion" />
       <Label fx:id="lEdad" layoutX="61.0" layoutY="172.0" text="Edad" />
       <Label fx:id="lCodigoEmpleado" layoutX="48.0" layoutY="203.0" text="Codigo Empleado" />
-      <Label layoutX="47.0" layoutY="241.0" text="Departamento" />
-      <TextField layoutX="195.0" layoutY="99.0" />
-      <TextField layoutX="195.0" layoutY="134.0" />
-      <TextField layoutX="195.0" layoutY="168.0" />
-      <TextField layoutX="195.0" layoutY="199.0" />
-      <TextField layoutX="195.0" layoutY="237.0" />
-      <Button layoutX="63.0" layoutY="278.0" mnemonicParsing="false" text="Agregar a la lista" />
-      <Button layoutX="234.0" layoutY="278.0" mnemonicParsing="false" text="Guardar Archivo XML" />
+      <Label fx:id="lDepartamento" layoutX="47.0" layoutY="241.0" text="Departamento" />
+      <TextField fx:id="LNombre" layoutX="195.0" layoutY="99.0" />
+      <TextField fx:id="LDireccion" layoutX="195.0" layoutY="134.0" />
+      <TextField fx:id="LEdad" layoutX="195.0" layoutY="168.0" />
+      <TextField fx:id="LCodigoEmpleado" layoutX="195.0" layoutY="199.0" />
+      <TextField fx:id="LDepartamento" layoutX="195.0" layoutY="237.0" />
+      <Button fx:id="EgregarEmpleado" layoutX="63.0" layoutY="278.0" mnemonicParsing="false" text="Agregar a la lista" />
+      <Button fx:id="crearArchivoXML" layoutX="234.0" layoutY="278.0" mnemonicParsing="false" onAction="#crearArchivoXML" text="Guardar Archivo XML" />
     </children>
 </AnchorPane>
