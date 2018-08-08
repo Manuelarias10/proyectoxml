@@ -20,7 +20,9 @@ class Empleado {
           Element company= new Element("company");
           Document doc = new Document(company);
           Element staff =new Element("staff");
+                 staff.addContent(new Element( "Nombre").setText(ListaEmpleados.get(i).getnombre())); 
                  staff.addContent(new Element( "Nombre").setText(ListaEmpleados.get(i).getDireccion())); 
+                 
       }
     }
     
